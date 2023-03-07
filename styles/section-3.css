@@ -1,0 +1,96 @@
+.section__3 {
+  background-color: var(--cor-de-section);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  gap: 32px;
+  padding: 26px;
+}
+
+.section__3-part1,
+.section__3-part2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 104%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  align-content: center;
+  gap: 32px;
+}
+
+.part1-3__titulo,
+.part2-3__titulo {
+  width: 100%;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  padding: 0px 0px 16px 0px;
+}
+
+.part1-3__skills,
+.part2-3__hobbits {
+  background-color: var(--cor-de-fundo);
+  width: 156px;
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 16px 16px;
+}
+
+.lenguaje,
+.rutinas {
+  width: 40px;
+  height: 37px;
+}
+
+.skills__habilidades-name,
+.hobbits__pasatiempos-name {
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .section__3-part1,
+  .section__3-part2 {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section__3 {
+    padding: 32px 152px;
+    gap: 0;
+  }
+
+  .section__3-part1 {
+    padding: 0 0 88px 0;
+  }
+
+  .section__3-part1,
+  .section__3-part2 {
+    width: 100%;
+    gap: 25px;
+  }
+
+  .part1-3__titulo,
+  .part2-3__titulo {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .part1-3__skills,
+  .part2-3__hobbits {
+    width: 130px;
+  }
+
+  .skills__habilidades-name,
+  .hobbits__pasatiempos-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

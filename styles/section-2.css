@@ -1,0 +1,46 @@
+.section__2-part1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.part1-2__titulo {
+  margin-top: 16px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.part1-2__parrafo {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.part1-2__firma {
+  width: 140px;
+  height: 52px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section__2 {
+    padding: 32px 152px;
+  }
+
+  .section__2-part1 {
+    gap: 16px;
+  }
+
+  .part1-2__titulo {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .part1-2__parrafo {
+    line-height: 19px;
+  }
+}
